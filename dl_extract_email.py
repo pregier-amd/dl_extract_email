@@ -12,7 +12,7 @@ argslen = len(sys.argv)
 # Read excel.xlsx to Get the log***.log,
 #  and companion dmesg***.log in the same root (directory).
 input_emails = "email.txt"
-outfile   = "output_diag_mi350.txt"
+outfile   = "output.txt"
 
 if argslen < 2:
     print("Example invocations include: python dl_extract_email.py <input emails> <output filename>")
